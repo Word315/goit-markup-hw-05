@@ -435,6 +435,9 @@ padding: 100px 0;
 .logo-par{
     margin-right: 120px
 }
+.soc-media{
+    margin-right:80px;
+}
 .logo-footer{
 font-family: "Raleway", sans-serif;
 font-weight: 700;
@@ -504,4 +507,57 @@ line-height: 150%;
 letter-spacing: 0.02em;
 color: #f4f4fd;
 max-width: 264px;
+}
+.button-subscribe{
+    background-color:#4d5ae5;
+}
+.subscribe-footer{
+    margin-bottom: 16px;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff; 
+}
+.subscribe-email{
+    display: flex;
+    gap: 24px;
+
+}
+
+.input-subscribe{
+    width: 264px; 
+    height: 40px; 
+    border: 1px solid #ffffff; 
+    background-color: transparent;
+    font-size: 12px; 
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    border-radius: 4px; 
+    color: #ffffff;
+}
+.input-subscribe::placeholder{
+    color: #ffffff;
+}
+.button-subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    min-width: 165px; 
+    height: 40px;
+    font-size: 16px; 
+    font-weight: 500;
+    line-height: 1.5 ;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none; 
+    border-radius: 4px;
+}
+.icon-frame{
+    margin-left: 16px;
 }
